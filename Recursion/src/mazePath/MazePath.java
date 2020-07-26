@@ -55,7 +55,7 @@ public class MazePath {
         return point.y >= size || point.y < 0;
     }
 
-    private static class Pair<X, Y> {
+    public static class Pair<X, Y> {
         public final X x;
         public final Y y;
 
